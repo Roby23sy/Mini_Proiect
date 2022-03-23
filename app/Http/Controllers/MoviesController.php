@@ -7,25 +7,42 @@ use App\Models\Movie;
 
 class MoviesController extends Controller
 {
-    public function status_rating()  {
+    public function index()  {
         $movies = Movie::Pass()->get();
         return json_encode($movies);
     }
 
-    public function delete($id)    {
+    public function destroy($id) {
         $movies = Movie::where('id', $id)
             ->delete();
-        return json_encode($movies);
+        if(json_encode($movies))
+        {
+            return 'Item deleted successfully';
+        }
+        else
+        {
+            return 'Id doesen`t exist!';
+        }
     }
 
-    public function store($name, $rating, $description, $image)    {
-        $movies = new Movie;
-        $movies->name = $name;
-        $movies->rating = $rating;
-        $movies->description = $description;
-        $movies->image = $image;
+    public function store(Request $request)    {
 
-        $movies->save();
 
+        if(isset($request['name']) && isset($request['rating']) && isset($request['description']) && isset($request['image']))
+        {
+            $movies = new Movie;
+            $movies->name       = $request['name'];
+            $movies->rating      = $request['rating'];
+            $movies->description = $request['description'];
+            $movies->image = $request['image'];
+            $movies->save();
+
+            return 'ok';
+        }
+
+        else
+        {
+            return 'NOT ok (something not set)';
+        }
     }
 }

@@ -20,14 +20,10 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('/movies', [MoviesController::class, 'status_rating']);
+Route::get('/movies', [MoviesController::class, 'index']);
 
-Route::delete('/movies/{id}', [MoviesController::class, 'delete']);
+Route::delete('/movies/{id}', [MoviesController::class, 'destroy']);
 
 Route::post('/movies',[MoviesController::class, 'store']);
-
-Route::get('/test', function (){
-    return Movie::all();
-});
 
 
