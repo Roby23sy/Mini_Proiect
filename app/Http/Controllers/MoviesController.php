@@ -37,7 +37,7 @@ class MoviesController extends Controller
             $movies->image = $request['image'];
             $movies->save();
 
-            return 'ok';
+            return json_encode($movies);
         }
 
         else
