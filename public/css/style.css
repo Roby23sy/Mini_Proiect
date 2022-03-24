@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 html {
     scroll-behavior: smooth;
 }
@@ -142,3 +142,49 @@ nav{
 .button_close:hover{
     cursor: pointer;
 }
+
+    @media screen and (min-width: 600px) {
+
+        .container-fluid{
+            height: 5rem;
+        }
+
+        .menu_bars{
+            font-size: 2.5rem;
+        }
+
+
+        .user{
+            font-size: 2.5rem;
+        }
+
+        .logo{
+            margin-left: -3.25rem;
+            width: 6.5rem;
+            height: 6.5rem;
+        }
+
+
+        .btn, .title, .rating{
+            font-size: 14px;
+        }
+
+        .description{
+            font-size: 12px ;
+        }
+
+
+        #text{
+            font-size: 25px;
+        }
+
+        .menu_arrow{
+            font-size: 2rem;
+        }
+
+        .button_close{
+            margin-left: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+    }
