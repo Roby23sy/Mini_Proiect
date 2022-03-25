@@ -2,12 +2,12 @@ require('./bootstrap');
 
 import Vue from 'vue';
 
-import App from './vue/app.vue'
+import App from './vue/app'
 
 const app = new Vue({
     el: '#app',
-    comments: {app}
-})
+    comments: { App }
+});
 
 import Alpine from 'alpinejs';
 

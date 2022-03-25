@@ -84,10 +84,8 @@ nav{
 
     border-width: 5px !important;
     padding: 15px !important;
-    margin-top: 40px !important;
-    margin-bottom: 40px !important;
-    margin-left: 20px !important;
-    margin-right: 20px !important;
+
+    margin: 40px 20px 40px 20px !important;
 }
 
 .description{
@@ -201,6 +199,12 @@ nav{
     }
 }
 
+@media screen and (min-width: 992px) {
+    #button {
+        padding-top: 30%!important;
+    }
+}
+
 @media screen and (min-width: 1300px) {
     #button {
         padding-top: 40%!important;
@@ -214,4 +218,21 @@ nav{
 }
 
 
+/* Animation */
+
+* {
+    animation: fadeIn 1.5s forwards;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+        transform: translateY(-2em);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 

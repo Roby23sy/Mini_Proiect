@@ -86,11 +86,11 @@
             <div class="flex-container">
                 <div class="row">
                     <div class="flex-item pl-3  img">
-                        <img class="card-img" src="assets/movies-images/space-force.jpg" alt="movie-image" loading="lazy">
+                        <img class="card-img" src="assets/movies-images/forest-gump.jpg" alt="movie-image" loading="lazy">
                     </div>
                     <div class="flex-item pl-3" style="width: 68%">
                         <div class="title">
-                            Space Force
+                            Forest Gump
                         </div>
                         <div class="pt-2 pb-2">
                             <i class="fas fa-star text-yellow-400"></i> <span style="font-size: 14px">8.8</span>
@@ -146,10 +146,11 @@
 <div id="app">
         <app></app>
 </div>
+
+</body>
 <script src="{{mix('js/app.js')}}"></script>
 
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-</body>
 </html>
