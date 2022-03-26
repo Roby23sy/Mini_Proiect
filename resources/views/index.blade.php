@@ -51,97 +51,56 @@
   </div>
 </nav>
 
-<div class="pt-3">
-    <div class="max-w-7xl mx-auto col-sm-6 col-lg-8">
-        <div class="p-2 bg-white overflow-hidden shadow-sm rounded border w-auto">
-            <div class="flex-container">
-                <div class="row">
-                    <div class="flex-item pl-3 align-self-end img">
-                        <img class="card-img" src="assets/movies-images/space-force.jpg" alt="movie-image" loading="lazy">
-                    </div>
-                    <div class="flex-item pl-3" style="width: 68%">
-                        <div class="title">
-                            Space Force
-                        </div>
-                        <div class="pt-2 pb-2">
-                            <i class="fas fa-star text-yellow-400"></i> <span style="font-size: 14px">6.9</span>
-                        </div>
-                        <div class="pt-4 pb-3 description">
-                            <strong>Director:</strong> Robert Zemeckis
-                        </div>
-                        <div class="pb-2 pt-1"></div>
-                        <div class="pt-4" id="button">
-                                <button type="button" class="btn btn-primary btn-block w-100">View More</button>
-                        </div>
-                    </div>
-                </div>
+
+<div class="movie_cards">
+        <div class="blog-post">
+            <div class="blog-post_img">
+                <img class="card-img" src="assets/movies-images/space-force.jpg" alt="movie-image" loading="lazy">
+            </div>
+            <div class="blog-post_info">
+                <h1 class="blog-post_title"> Space Force </h1>
+                <h2><i class="fas fa-star text-yellow-400"></i> <span style="font-size: 14px">6.9</span></h2>
+                <p class="blog-post_description"><strong>Director:</strong> Robert Zemeckis</p>
+                <button type="button" class="btn btn1 btn-primary btn-block ">View More</button>
             </div>
         </div>
+
+
+<div class="blog-post">
+    <div class="blog-post_img">
+        <img class="card-img" src="assets/movies-images/forest-gump.jpg" alt="movie-image" loading="lazy">
+    </div>
+
+    <div class="blog-post_info">
+        <h1 class="blog-post_title">Forest Gump </h1>
+        <h2><i class="fas fa-star text-yellow-400"></i> <span style="font-size: 14px">8.8</span></h2>
+        <p class="blog-post_description">
+            <strong>Director: </strong>Robert Zemeckis
+            <br>
+            <strong>Writers: </strong>Winston Groom
+            <br>
+            <strong>Stars: </strong>Tom Hanks, Robin Wright, Gary Sinise
+        </p>
+        <button type="button" class="btn btn3 btn-primary btn-block ">View More</button>
     </div>
 </div>
 
-<div class="pt-3">
-    <div class=" mx-auto max-w-7xl col-sm-6 col-lg-8">
-        <div class="p-2 bg-white overflow-hidden shadow-sm rounded border w-auto">
-            <div class="flex-container">
-                <div class="row">
-                    <div class="flex-item pl-3  img">
-                        <img class="card-img" src="assets/movies-images/forest-gump.jpg" alt="movie-image" loading="lazy">
-                    </div>
-                    <div class="flex-item pl-3" style="width: 68%">
-                        <div class="title">
-                            Forest Gump
-                        </div>
-                        <div class="pt-2 pb-2">
-                            <i class="fas fa-star text-yellow-400"></i> <span style="font-size: 14px">8.8</span>
-                        </div>
-                        <div class="pt-2 pb-2 description" >
-                            <strong>Director: </strong>Robert Zemeckis
-                            <br>
-                            <strong>Writers: </strong>Winston Groom
-                            <br>
-                            <strong>Stars: </strong>Tom Hanks, Robin Wright, Gary Sinise
-                        </div>
-                        <div class="pb-1 pt-1"></div>
-                        <div class="pt-4" id="button">
-                            <button type="button" class="btn btn-primary btn-block w-100">View More</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+<div class="blog-post">
+    <div class="blog-post_img">
+        <img class="card-img" src="assets/movies-images/joker.jpg" alt="movie-image" loading="lazy">
+    </div>
+
+    <div class="blog-post_info">
+        <h1 class="blog-post_title"> Joker </h1>
+        <h2><i class="fas fa-star"></i> <span style="font-size: 14px">7.0</span></h2>
+        <p class="blog-post_description">
+            <strong>Stars: </strong>Tom Hanks, Robin Wright, Gary Sinise
+        </p>
+        <button type="button" class="btn btn1 btn-primary btn-block ">View More</button>
     </div>
 </div>
 
-<div class="pt-3">
-    <div class="max-w-7xl mx-auto col-sm-6 col-lg-8">
-        <div class="p-2 bg-white overflow-hidden shadow-sm rounded border w-auto">
-            <div class="flex-container">
-                <div class="row">
-                    <div class="flex-item pl-3 align-self-end img">
-                        <img class="card-img" src="assets/movies-images/joker.jpg" alt="movie-image" loading="lazy">
-                    </div>
-                    <div class="flex-item pl-3" style="width: 68%">
-                        <div class="title">
-                            Joker
-                        </div>
-                        <div class="pt-2 pb-2">
-                            <i class="fas fa-star text-yellow-400"></i> <span style="font-size: 14px">7.0</span>
-                        </div>
-                        <div class="pt-4 pb-3 description">
-                            <strong>Stars: </strong>Tom Hanks, Robin Wright, Gary Sinise
-                        </div>
-                        <div class="pb-2 pt-1"></div>
-                        <div class="pt-4" id="button">
-                            <button type="button" class="btn btn-primary btn-block w-100">View More</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
-
 
 <div id="app">
         <app></app>

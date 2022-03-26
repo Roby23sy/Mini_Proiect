@@ -17,11 +17,11 @@ nav{
     padding: 0.2rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    height: 9.688rem;
+    height: 7rem;
 }
 
 .menu_bars{
-    font-size: 5rem;
+    font-size: 4rem;
     color: #fff;
 }
 
@@ -38,24 +38,16 @@ nav{
 
 .user{
     color: #fff;
-    font-size: 5rem;
+    font-size: 4rem;
     margin-right: 2.5rem;
 }
 
 .logo{
     position: absolute;
     left: 50%;
-    margin-left: -6.5625rem;
-    width: 13.125rem;
-    height: 13.125rem;
-}
-
-.movies{
-    margin: 5rem;
-}
-
-.img{
-    width: 32% !important;
+    margin-left: -4.5rem;
+    width: 9rem;
+    height: 9rem;
 }
 
 .btn{
@@ -63,55 +55,17 @@ nav{
     color: #212529;
 }
 
-.btn, .title, .rating{
-    font-size: 2em;
-}
-
 .fa-star{
     color: #f9c23d;
 }
 
-#artists , .title{
-    font-weight: bold;
-}
-
-.container{
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.card{
-
-    border-width: 5px !important;
-    padding: 15px !important;
-
-    margin: 40px 20px 40px 20px !important;
-}
-
-.description{
-    font-size: 2em;
-}
-
-.flex-col{
-    flex-direction: column;
-}
-
-.top, .bot{
-    flex: 0 0 30%;
-}
-
-.mid{
-    flex: 0 0 40%;
-    padding-right: 20px;
-}
 
 #text{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 25%;
+    left: 35%;
     transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    font-size: 50px;
+    font-size: 25px;
     color: #000000;
     text-align: center;
 }
@@ -146,7 +100,97 @@ nav{
     cursor: pointer;
 }
 
-    @media screen and (min-width: 600px) {
+
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+img{
+    width: 100%;
+}
+
+.movie_cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-color: #eee;
+    padding: 0 1.5rem;
+    font-size: 12px;
+}
+
+
+.blog-post{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 1.4rem 8rem rgba(0, 0, 0, .2);
+    display: flex;
+    align-items: center;
+    border-radius: .2rem;
+}
+
+.blog-post_img{
+    min-width: 18rem;
+    max-width: 35rem;
+    height: 30rem;
+}
+
+.blog-post_img img{
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+    display: block;
+}
+
+.blog-post_info{
+    padding-left: 1.2rem;
+    height: 30rem;
+}
+
+.blog-post_description{
+    max-width: 9rem;
+    display: block;
+    margin-top: 9rem;
+
+}
+
+.blog-post_title, .btn{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+h2{
+    margin: 0 0 2rem ;
+}
+
+.btn{
+    display: inline-block;
+    padding: 1rem 10rem;
+    letter-spacing: 1px;
+    align-items: flex-end;
+}
+
+.btn1{
+    margin-top: 10.5rem;
+}
+
+.btn2{
+    margin-top: 9.5rem;
+}
+.btn3{
+    margin-top: 7.5rem;
+}
+
+
+    @media screen and (max-width: 900px) {
 
         .container-fluid{
             height: 5rem;
@@ -190,32 +234,20 @@ nav{
             margin-top: 1.5rem;
         }
 
+        .btn1{
+            margin-top: 9rem;
+        }
+
+        .btn2{
+            margin-top: 6.5rem;
+        }
+        .btn3{
+            margin-top: 5rem;
+        }
+
     }
 
 
-@media screen and (min-width: 992px) {
-    #button {
-        padding-top: 30%!important;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    #button {
-        padding-top: 30%!important;
-    }
-}
-
-@media screen and (min-width: 1300px) {
-    #button {
-        padding-top: 40%!important;
-    }
-}
-
-@media screen and (min-width: 1600px) {
-    #button {
-        padding-top: 50%!important;
-    }
-}
 
 
 /* Animation */
