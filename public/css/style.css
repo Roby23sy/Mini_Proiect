@@ -57,6 +57,7 @@ nav{
 
 .fa-star{
     color: #f9c23d;
+    font-size: 20px;
 }
 
 
@@ -128,6 +129,7 @@ img{
 
 
 .blog-post{
+    max-width: 80%;
     margin: 1rem;
     padding: 1rem;
     background-color: #fff;
@@ -173,7 +175,7 @@ h2{
 
 .btn{
     display: inline-block;
-    padding: 1rem 10rem;
+    padding: 1rem 6rem;
     letter-spacing: 1px;
     align-items: flex-end;
 }
@@ -247,7 +249,11 @@ h2{
 
     }
 
-
+    @media screen and (max-width: 780px) {
+        .btn{
+            padding: 1rem 4rem;
+        }
+    }
 
 
 /* Animation */
