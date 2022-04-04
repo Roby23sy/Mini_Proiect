@@ -247,12 +247,14 @@ h2{
             margin-top: 5rem;
         }
 
+    
     }
 
     @media screen and (max-width: 780px) {
         .btn{
             padding: 1rem 4rem;
         }
+
     }
 
 
